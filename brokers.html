@@ -1,0 +1,693 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <title>Real Estate Property Management Software in Dubai, UAE - CRM Software for Real Estate - Goyzer</title>
+    <meta content="width=device-width, initial-scale=1.0" name="viewport">
+    <meta content="Real Estate Property Management Software" name="keywords">
+    <meta content="Real Estate Property Management Software" name="description">
+
+    <!-- Favicon -->
+    <link href="img/favicon.ico" rel="icon">
+
+    <!-- Google Web Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Nunito:wght@400;600;700;800&family=Rubik:wght@400;500;600;700&display=swap" rel="stylesheet">
+
+    <!-- Icon Font Stylesheet -->
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.10.0/css/all.min.css" rel="stylesheet">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.4.1/font/bootstrap-icons.css" rel="stylesheet">
+
+    <!-- Libraries Stylesheet -->
+    <link href="lib/owlcarousel/assets/owl.carousel.min.css" rel="stylesheet">
+    <link href="lib/animate/animate.min.css" rel="stylesheet">
+
+    <!-- Customized Bootstrap Stylesheet -->
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+
+    <!-- Template Stylesheet -->
+    <link href="css/style.css" rel="stylesheet">
+</head>
+
+<body>
+
+    <div id="spinner" class="show bg-white position-fixed translate-middle w-100 vh-100 top-50 start-50 d-flex align-items-center justify-content-center">
+      <div class="spinner"></div>
+    </div>
+
+    <div class="container-fluid position-relative p-0">
+      <nav class="navbar navbar-expand-lg navbar-dark px-5 py-3 py-lg-0">
+        <a href="index.html" class="navbar-brand p-0">
+          <h2 class="m-0">
+            <img
+              src="img/goyzer-logo-white.webp"
+              alt="no-img"
+              class="logo-white"
+            /><img src="img/logo-trans.png" alt="no-img" class="logo-trans" />
+          </h2>
+        </a>
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-bs-toggle="collapse"
+          data-bs-target="#navbarCollapse"
+        >
+          <span class="fa fa-bars"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarCollapse">
+          <div class="navbar-nav ms-auto py-0">
+            <a href="index.html" class="nav-item nav-link">Home</a>
+            <a href="about.html" class="nav-item nav-link">About Us</a>
+            <div class="nav-item dropdown">
+              <a
+                href="#"
+                class="nav-link dropdown-toggle active"
+                data-bs-toggle="dropdown"
+                >Features</a
+              >
+              <div class="dropdown-menu m-0">
+                <a href="brokers.html" class="dropdown-item active">Brokers</a>
+                <a href="developers.html" class="dropdown-item">Developers</a>
+                <a href="property-managers.html" class="dropdown-item"
+                  >Property Managers</a
+                >
+              </div>
+            </div>
+            <a href="contact.html" class="nav-item nav-link">Contact Us</a>
+            <a href="https://blog.goyzer.com/" class="nav-item nav-link" target="_blank">Blogs</a>
+          </div>
+          <butaton
+            type="button"
+            class="btn text-primary ms-3"
+            data-bs-toggle="modal"
+            data-bs-target="#searchModal"
+            ><i class="fa fa-search"></i
+          ></butaton>
+          <a href="contact.html" class="btn btn-primary py-2 px-4 ms-3"
+            >Free Demo</a
+          >
+        </div>
+      </nav>
+
+      <div
+        id="header-carousel"
+        class="carousel slide carousel-fade"
+        data-bs-ride="carousel"
+      >
+        <div class="carousel-inner">
+          <div class="carousel-item active">
+            <img class="w-100 vh-100" src="img/main-banner2.jpg" alt="Image" />
+            <div
+              class="carousel-caption d-flex flex-column align-items-center justify-content-center"
+            >
+              <div class="p-3" style="max-width: 900px">
+               
+                <h1 class="display-6 text-white mb-md-4 animated zoomIn">
+                  The leading Real Estate Management Software now powered by AI
+                </h1>
+                <h5 class="text-white mb-5 animated slideInDown">
+                  Boost productivity and make smarter decisions with the most advanced AI driven real estate CRM for brokers, developers and property managers
+                </h5>
+                
+                <a
+                  href="contact.html"
+                  class="btn btn-outline-light py-md-3 px-md-5 animated slideInRight"
+                  >Contact Us</a
+                >
+              </div>
+            </div>
+          </div>
+         
+        </div>
+        <button
+          class="carousel-control-prev"
+          type="button"
+          data-bs-target="#header-carousel"
+          data-bs-slide="prev"
+        >
+          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Previous</span>
+        </button>
+        <button
+          class="carousel-control-next"
+          type="button"
+          data-bs-target="#header-carousel"
+          data-bs-slide="next"
+        >
+          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Next</span>
+        </button>
+      </div>
+    </div>
+
+    <div class="modal fade" id="searchModal" tabindex="-1">
+      <div class="modal-dialog modal-fullscreen">
+        <div class="modal-content" style="background: rgba(9, 30, 62, 0.7)">
+          <div class="modal-header border-0">
+            <button
+              type="button"
+              class="btn bg-white btn-close"
+              data-bs-dismiss="modal"
+              aria-label="Close"
+            ></button>
+          </div>
+          <div
+            class="modal-body d-flex align-items-center justify-content-center"
+          >
+            <div class="input-group" style="max-width: 600px">
+              <input
+                type="text"
+                class="form-control bg-transparent border-primary p-3"
+                placeholder="Type search keyword"
+              />
+              <button class="btn btn-primary px-4">
+                <i class="bi bi-search"></i>
+              </button>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="container-fluid py-5 wow fadeInUp" data-wow-delay="0.1s">
+      <div class="container">
+        <div
+          class="section-title text-center position-relative pb-3 mb-4 mx-auto"
+          style="max-width: 600px"
+        >
+          <h5 class="fw-bold text-primary text-uppercase">
+            Trusted By Real Estate Professionals
+          </h5>
+        </div>
+        <div class="bg-white pt-4">
+          <div class="owl-carousel vendor-carousel">
+            <img src="img/betterhomes-client.webp" alt="" />
+            <img src="img/chestertons-client.webp" alt="" />
+            <img src="img/colliers-client.webp" alt="" />
+            <img src="img/crc-client.webp" alt="" />
+
+            <img
+              src="img/haus&haus.png"
+              alt="hasu"
+              style="position: relative; top: 26px"
+            />
+            <img
+              src="img/savills-logo.webp"
+              alt="savills"
+              style="position: relative; top: -25px"
+            />
+            <img
+              src="img/chris.png"
+              alt="christias"
+              style="position: relative; top: 26px"
+            />
+            <img
+              src="img/alainpng.jpg"
+              alt="christias"
+              style="position: relative; top: -25px"
+            />
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="container-fluid wow fadeInUp " data-wow-delay="0.1s" style="visibility: visible; animation-delay: 0.1s; animation-name: fadeInUp;">
+        <div class="container">
+            <div class="section-title text-center position-relative pb-2 mb-5 mx-auto" style="">
+                <h5 class="fw-bold text-primary text-uppercase">
+                  A One Stop Real Estate Broker CRM Solution
+              </h5>
+                
+            </div>
+            <p class="mb-0" style="text-align: left;">
+              In today's market, maximizing your time is the key to your success. Goyzer real estate broker CRM software enables you to effectively and efficiently manage your network of clients, agents and property listings all on one online platform. Goyzer is the only CRM for real estate broker designed to make everything easier and far more intuitive for everyone involved in your business.
+
+              With Goyzer real estate broker CRM software, set up a clear company hierarchy with defined access rights for your agents and back end staff to minimize confusion and clarify responsibilities. Streamline sales and leasing processes to enhance the productivity of your agents. It's a simple equation - less time on admin = more time closing deals! Achieve a crystal clear picture of your finances by tracking all payments and claims with Goyzer real estate Software as a Service (SaaS). Analyze your business and agent's performances with Goyzer’s report generation tool.
+
+             
+            </p>
+        </div>
+    </div>
+
+
+     <!-- Top Features Start -->
+     <div class="container-fluid py-5 wow fadeInUp" data-wow-delay="0.1s">
+        <div class="container py-5">
+            <div class="row g-5">
+                <div class="col-lg-7">
+                    <div class="section-title position-relative pb-3 mb-4">
+                        <h5 class="fw-bold text-primary text-uppercase">Top Features For Brokers</h5>
+                        <h1 class="mb-0">Portal Listings</h1>
+                    </div>
+                    <p class="mb-4">List on all your favourite listing portals centrally under one single platform. The Goyzer CRM for real estate brokers allows you to create your listings and push them out seamlessly to portals thus reducing in less time spent on repetitive listings on separate portals and spending more time on closing deals.</p>
+                    <p class="mb-4">The listings can be expanded to international portals as well based on the business requirements and the main attraction for brokers would be the time saved of listing properties under one platform instead of separately entering information on different portals. The initial setup is seamless and once you have been integrated, The listing is merely filling out the required information of the listing and submitting the information to the desired portals.</p>
+                    
+                    <!-- <a href="developers.html" class="btn btn-primary py-3 px-5 mt-3 wow zoomIn" data-wow-delay="0.9s">View All Features</a> -->
+                </div>
+                <div class="col-lg-5" style="min-height: 500px;">
+                    <div class="position-relative h-100">
+                        <img class="position-absolute w-100 h-100 rounded wow zoomIn" data-wow-delay="0.9s" src="img/portal-listing.webp" style="object-fit: contain;">
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- Top Features End -->
+
+    <!-- Top Property Management Start -->
+    <div class="container-fluid py-5 wow fadeInUp" data-wow-delay="0.1s">
+        <div class="container py-5">
+            <div class="row g-5">
+                <div class="col-lg-5" style="min-height: 500px;">
+                    <div class="position-relative h-100">
+                        <img class="position-absolute w-100 h-100 rounded wow zoomIn" data-wow-delay="0.9s" src="img/listing-commision-report.webp" style="object-fit: contain;">
+                    </div>
+                </div>
+                <div class="col-lg-7">
+                    <div class="section-title position-relative pb-3 mb-5">
+                        <h5 class="fw-bold text-primary text-uppercase">Top Features For Brokers</h5>
+                        <h1 class="mb-0">Commission Tracking</h1>
+                    </div>
+                    <p class="mb-4">Achieve better financial management with the goyzer commission tracking feature. Get real-time updates on sales and agent commissions. The transparency of commissions becomes far more clearer when the agent and the management have a live point of information on the exact number of deals closed along with the monetary amount that has been earned by the agent and disbursed as well.</p>
+
+                    <p>The commission tracking can be made available as a form of report or it can be shown as a widget to each agent as well based on the preference of the business.</p>
+                    
+                    <!-- <a href="property-managers.html" class="btn btn-primary py-3 px-5 mt-3 wow zoomIn" data-wow-delay="0.9s">View All Features</a> -->
+                </div>
+                
+            </div>
+        </div>
+    </div>
+    <!-- Top Property Management End -->
+
+     <!-- Top Features Developers Start -->
+     <div class="container-fluid py-5 wow fadeInUp" data-wow-delay="0.1s">
+        <div class="container py-5">
+            <div class="row g-5">
+                <div class="col-lg-7">
+                    <div class="section-title position-relative pb-3 mb-5">
+                        <h5 class="fw-bold text-primary text-uppercase">Top Features For Brokers</h5>
+                        <h1 class="mb-0">Lead Distribution</h1>
+                    </div>
+                    <p class="mb-4">Set up a fool proof and fair system for distributing leads to your team of agents. Through our lead pool functionality , You can automate the distribution of leads through a defined sequence or manually. The result is less confusion between your team and an increase in productivity.</p>
+                    <p class="mb-4">Integration all your sources of leads into one place therefore all your leads from social media channels, Walk in enquiries, Telephone enquiries can all be allocated in one single lead pool location. The business can choose to distribute them based on an algorithmic method or just choose to have manually assigned agents to work on certain leads. The results of the assigned leads can be viewed by management to see how many leads were gathered from which source along with the status of each of those leads to track agent performances.</p>
+                </div>
+                <div class="col-lg-5" style="min-height: 500px;">
+                    <div class="position-relative h-100">
+                        <img class="position-absolute w-100 h-100 rounded wow zoomIn" data-wow-delay="0.9s" src="img/lead-distribution.webp" style="object-fit: contain;">
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- Top Features Developers End -->
+
+    <!-- <Top Features Start> -->
+        <div class="container-fluid py-5 wow fadeInUp" data-wow-delay="0.1s" style="visibility: visible; animation-delay: 0.1s; animation-name: fadeInUp;">
+            <div class="container py-5">
+                <div class="row g-5">
+                    <div class="col-lg-5" style="min-height: 500px;">
+                        <div class="position-relative h-100">
+                            <img class="position-absolute w-100 h-100 rounded wow zoomIn" data-wow-delay="0.9s" src="img/api-integration.webp" style="object-fit: contain;">
+                        </div>
+                    </div>
+                    <div class="col-lg-7">
+                        <div class="section-title position-relative pb-3 mb-3">
+                            <h5 class="fw-bold text-primary text-uppercase">Top Features For Brokers</h5>
+                            <h1 class="mb-0">Third Party Integrations</h1>
+                        </div>
+                        <p class="mb-4">Through open enterprise level API you are able to integrate any software that your brokerage uses and seamlessly integrate it with the goyzer real estate management software. This allows a hassle free continuation of your existing periphery software and shares data to and from the system on a constant basis without having to interrupt how your operation works.</p>
+                        <div class="row">
+                            <h5 class="fw-bold text-primary text-uppercase mb-4">Integrate Goyzer with:</h5>
+                        </div>
+                        <div class="row gx-3">
+                            <!-- <div class="col-sm-6 wow zoomIn" data-wow-delay="0.2s" style="visibility: visible; animation-delay: 0.2s; animation-name: zoomIn;">
+                                <h5 class="mb-4"><i class="fa fa-reply text-primary me-3"></i>Ejari</h5>
+                            </div>
+                            <div class="col-sm-6 wow zoomIn" data-wow-delay="0.4s" style="visibility: visible; animation-delay: 0.4s; animation-name: zoomIn;">
+                                <h5 class="mb-4"><i class="fa fa-reply text-primary me-3"></i>Accounting Softwares</h5>
+                            </div>
+                            <div class="col-sm-6 wow zoomIn" data-wow-delay="0.2s" style="visibility: visible; animation-delay: 0.2s; animation-name: zoomIn;">
+                                <h5 class="mb-4"><i class="fa fa-reply text-primary me-3"></i>ERP Softwares</h5>
+                            </div>
+                            <div class="col-sm-6 wow zoomIn" data-wow-delay="0.4s" style="visibility: visible; animation-delay: 0.4s; animation-name: zoomIn;">
+                                <h5 class="mb-4"><i class="fa fa-reply text-primary me-3"></i>HR Softwares</h5>
+                            </div>
+                            <div class="col-sm-6 wow zoomIn" data-wow-delay="0.4s" style="visibility: visible; animation-delay: 0.4s; animation-name: zoomIn;">
+                                <h5 class="mb-4"><i class="fa fa-reply text-primary me-3"></i>Property Portals</h5>
+                            </div>
+                            <div class="col-sm-6 wow zoomIn" data-wow-delay="0.4s" style="visibility: visible; animation-delay: 0.4s; animation-name: zoomIn;">
+                                <h5 class="mb-4"><i class="fa fa-reply text-primary me-3"></i>And many more!</h5>
+                            </div> -->
+                            <div class="form-group" style="float: left">
+                                <div style="
+                                    margin-left: 15px;
+                                    float: left;
+                                    width: 40%;
+                                    margin-bottom: 10px;
+                                  ">
+                                  <input type="checkbox" class="chb chb-3" id="chb-1" checked="">
+                                  <label for="chb-1">Ejari</label>
+                                </div>
+                                <div style="
+                                    margin-left: 15px;
+                                    float: left;
+                                    width: 40%;
+                                    margin-bottom: 10px;
+                                  ">
+                                  <input type="checkbox" class="chb chb-3" id="chb-2" checked="">
+                                  <label for="chb-2">ERP Softwares</label>
+                                </div>
+                                <div style="
+                                    margin-left: 15px;
+                                    float: left;
+                                    width: 40%;
+                                    margin-bottom: 10px;
+                                  ">
+                                  <input type="checkbox" class="chb chb-3" id="chb-3" checked="">
+                                  <label for="chb-3">Property Portals</label>
+                                </div>
+                                <div style="
+                                    margin-left: 15px;
+                                    float: left;
+                                    width: 40%;
+                                    margin-bottom: 10px;
+                                  ">
+                                  <input type="checkbox" class="chb chb-3" id="chb-4" checked="">
+                                  <label for="chb-4">Accounting Softwares</label>
+                                </div>
+                                <div style="
+                                    margin-left: 15px;
+                                    float: left;
+                                    width: 40%;
+                                    margin-bottom: 10px;
+                                  ">
+                                  <input type="checkbox" class="chb chb-3" id="chb-5" checked="">
+                                  <label for="chb-5">HR Softwares</label>
+                                </div>
+                                <div style="
+                                    margin-left: 15px;
+                                    float: left;
+                                    width: 40%;
+                                    margin-bottom: 10px;
+                                  ">
+                                  <input type="checkbox" class="chb chb-3" id="chb-6" checked="">
+                                  <label for="chb-6">And many more!</label>
+                                </div>
+                              </div>
+                        </div>
+                    </div>
+                   
+                </div>
+            </div>
+        </div>
+    <!-- <Top Features End> -->
+
+    <!-- <Top Features Start> -->
+        <div class="container-fluid py-5 wow fadeInUp" data-wow-delay="0.1s" style="visibility: visible; animation-delay: 0.1s; animation-name: fadeInUp;">
+                <div class="container py-5">
+                    <div class="row g-5">
+                        
+                        <div class="col-lg-7">
+                            <div class="section-title position-relative pb-3 mb-3">
+                                <h5 class="fw-bold text-primary text-uppercase">Top Features For Brokers</h5>
+                                <h1 class="mb-0">Other Features for Brokers</h1>
+                            </div>
+                            <p class="mb-4">Through open enterprise level API you are able to integrate any software that your brokerage uses and seamlessly integrate it with the goyzer real estate management software. This allows a hassle free continuation of your existing periphery software and shares data to and from the system on a constant basis without having to interrupt how your operation works.</p>
+                            <div class="row">
+                                <h5 class="fw-bold text-primary text-uppercase mb-4">Integrate Goyzer with:</h5>
+                            </div>
+                            <div class="row gx-3">
+                                <!-- <div class="col-sm-6 wow zoomIn" data-wow-delay="0.2s" style="visibility: visible; animation-delay: 0.2s; animation-name: zoomIn;">
+                                    <h5 class="mb-4"><i class="fa fa-reply text-primary me-3"></i>Centralised listing of units</h5>
+                                </div>
+                                <div class="col-sm-6 wow zoomIn" data-wow-delay="0.4s" style="visibility: visible; animation-delay: 0.4s; animation-name: zoomIn;">
+                                    <h5 class="mb-4"><i class="fa fa-reply text-primary me-3"></i>Mobile Application</h5>
+                                </div>
+                                <div class="col-sm-6 wow zoomIn" data-wow-delay="0.2s" style="visibility: visible; animation-delay: 0.2s; animation-name: zoomIn;">
+                                    <h5 class="mb-4"><i class="fa fa-reply text-primary me-3"></i>Tasks/ Activity logs</h5>
+                                </div>
+                                <div class="col-sm-6 wow zoomIn" data-wow-delay="0.4s" style="visibility: visible; animation-delay: 0.4s; animation-name: zoomIn;">
+                                    <h5 class="mb-4"><i class="fa fa-reply text-primary me-3"></i>Filter searches</h5>
+                                </div>
+                                <div class="col-sm-6 wow zoomIn" data-wow-delay="0.4s" style="visibility: visible; animation-delay: 0.4s; animation-name: zoomIn;">
+                                    <h5 class="mb-4"><i class="fa fa-reply text-primary me-3"></i>Receipt and invoice generation</h5>
+                                </div>
+                                <div class="col-sm-6 wow zoomIn" data-wow-delay="0.4s" style="visibility: visible; animation-delay: 0.4s; animation-name: zoomIn;">
+                                    <h5 class="mb-4"><i class="fa fa-reply text-primary me-3"></i>Call center capabilities</h5>
+                                </div>
+                                <div class="col-sm-6 wow zoomIn" data-wow-delay="0.4s" style="visibility: visible; animation-delay: 0.4s; animation-name: zoomIn;">
+                                    <h5 class="mb-4"><i class="fa fa-reply text-primary me-3"></i>Contact Management</h5>
+                                </div>
+                                <div class="col-sm-6 wow zoomIn" data-wow-delay="0.4s" style="visibility: visible; animation-delay: 0.4s; animation-name: zoomIn;">
+                                    <h5 class="mb-4"><i class="fa fa-reply text-primary me-3"></i>Fully dynamic user access control</h5>
+                                </div>
+                                <div class="col-sm-6 wow zoomIn" data-wow-delay="0.4s" style="visibility: visible; animation-delay: 0.4s; animation-name: zoomIn;">
+                                    <h5 class="mb-4"><i class="fa fa-reply text-primary me-3"></i>Lead Management</h5>
+                                </div> -->
+                                <div class="form-group" style="float: left">
+                                    <div style="
+                                        margin-left: 15px;
+                                        float: left;
+                                        width: 40%;
+                                        margin-bottom: 10px;
+                                      ">
+                                      <input type="checkbox" class="chb chb-3" id="chb-1" checked="">
+                                      <label for="chb-1">Centralised listing of units</label>
+                                    </div>
+                                    <div style="
+                                        margin-left: 15px;
+                                        float: left;
+                                        width: 40%;
+                                        margin-bottom: 10px;
+                                      ">
+                                      <input type="checkbox" class="chb chb-3" id="chb-2" checked="">
+                                      <label for="chb-2">Tasks/ Activity logs</label>
+                                    </div>
+                                    <div style="
+                                        margin-left: 15px;
+                                        float: left;
+                                        width: 40%;
+                                        margin-bottom: 10px;
+                                      ">
+                                      <input type="checkbox" class="chb chb-3" id="chb-3" checked="">
+                                      <label for="chb-3">Receipt and invoice generation</label>
+                                    </div>
+                                    <div style="
+                                        margin-left: 15px;
+                                        float: left;
+                                        width: 40%;
+                                        margin-bottom: 10px;
+                                      ">
+                                      <input type="checkbox" class="chb chb-3" id="chb-4" checked="">
+                                      <label for="chb-4">Contact Management</label>
+                                    </div>
+                                    <div style="
+                                        margin-left: 15px;
+                                        float: left;
+                                        width: 40%;
+                                        margin-bottom: 10px;
+                                      ">
+                                      <input type="checkbox" class="chb chb-3" id="chb-5" checked="">
+                                      <label for="chb-5">Lead Management</label>
+                                    </div>
+                                    <div style="
+                                        margin-left: 15px;
+                                        float: left;
+                                        width: 40%;
+                                        margin-bottom: 10px;
+                                      ">
+                                      <input type="checkbox" class="chb chb-3" id="chb-6" checked="">
+                                      <label for="chb-6">Mobile Application</label>
+                                    </div>
+                                    <div style="
+                                        margin-left: 15px;
+                                        float: left;
+                                        width: 40%;
+                                        margin-bottom: 10px;
+                                      ">
+                                      <input type="checkbox" class="chb chb-3" id="chb-7" checked="">
+                                      <label for="chb-7">Filter searches</label>
+                                    </div>
+                                    <div style="
+                                        margin-left: 15px;
+                                        float: left;
+                                        width: 40%;
+                                        margin-bottom: 10px;
+                                      ">
+                                      <input type="checkbox" class="chb chb-3" id="chb-8" checked="">
+                                      <label for="chb-8">Call center capabilities</label>
+                                    </div>
+                                   
+                                  </div>
+                            </div>
+                            
+                            
+                        </div>
+                        <div class="col-lg-5" style="min-height: 500px;">
+                            <div class="position-relative h-100">
+                                <img class="position-absolute w-100 h-100 rounded wow zoomIn" data-wow-delay="0.9s" src="img/other-features.webp" style="object-fit: contain;">
+                            </div>
+                        </div>
+                       
+                    </div>
+                </div>
+        </div>
+    <!-- <Top Features End> -->
+    
+
+    <!---- FAQ Start> -->
+    <div class="container-fluid wow fadeInUp" data-wow-delay="0.1s">
+        <div class="container">
+       
+           <h1 style="text-align: center;margin-bottom: 30px;">Frequently Asked Questions</h1>
+           
+           <div class="faq-drawer">
+           <input class="faq-drawer__trigger" id="faq-drawer-2" type="checkbox" /><label class="faq-drawer__title" for="faq-drawer-2">How does Goyzer real estate software help brokers?</label>
+           <div class="faq-drawer__content-wrapper">
+               <div class="faq-drawer__content">
+               <p>We focus on ensuring that the broker has all the information they need with regards to leads and inventory in a simple to use single platform. The Goyzer real estate software allows brokers to list their properties on all property portals from one single platform thus saving time and effort to list on each individual portal. The broker also has access to a mobile application of their system that allows them to update and add leads and inventory on the go. We have also automated reminders and tasks so that any activity that needs to be conducted is, through automation, brought to the agent's attention. Lastly, We ensure that social media integrations are available to maximize potential lead generation.</p>
+               </div>
+           </div>
+           </div>
+
+           <div class="faq-drawer">
+            <input class="faq-drawer__trigger" id="faq-drawer-3" type="checkbox" /><label class="faq-drawer__title" for="faq-drawer-3">How Secure is my data?</label>
+            <div class="faq-drawer__content-wrapper">
+                <div class="faq-drawer__content">
+                <p>
+                    Data security is our top most priority as we understand that the real estate industry is heavily reliant on making sure their information is kept secure and out of hands from competition. We are a cloud based application provider that uses the world's leading infrastructure provider and ensure all the best practices are implemented to protect your data from any breaches.           
+                </p>
+                </div>
+            </div>
+            </div>
+           
+           <div class="faq-drawer">
+            <input class="faq-drawer__trigger" id="faq-drawer" type="checkbox" /><label class="faq-drawer__title" for="faq-drawer">How does the pricing work?</label>
+            <div class="faq-drawer__content-wrapper">
+                <div class="faq-drawer__content">
+                <p>
+                    For brokers the pricing is based on the amount of users that your brokerage would have. To get an accurate pricing and to see what would work best for your company. Feel free to contact us in our contact us tab and we will be happy to help. 
+                </p>
+                </div>
+            </div>
+            </div>
+
+        </div>
+    </div>
+     <!---- FAQ END> -->
+
+
+    
+    
+
+    <!-- Footer Start -->
+    <div class="container-fluid bg-dark text-light mt-5 wow fadeInUp" data-wow-delay="0.1s" >
+        <div class="container">
+            <div class="row gx-5">
+                <div class="col-lg-4 col-md-6 footer-about">
+                    <div class="d-flex flex-column align-items-center justify-content-center text-left h-100 bg-primary p-4">
+                        <a href="index.html" class="navbar-brand">
+                            <h1 class="m-0 text-white"><img src="https://www.goyzer.com/images/goyzer-logo-white.webp" alt="no-img"/></h1>
+                        </a>
+                        <p class="mt-3 mb-4">Goyzer is the leading UAE based AI real estate management software that empowers real estate companies to leverage AI for their daily tasks wherein they not only improve their lead conversions but also improve efficiencies. List your properties on major portals from a single platform and receive all your leads in goyzer. Managing your real estate business has never been easier</p>
+                        <!-- <form action="">
+                            <div class="input-group">
+                                <input type="text" class="form-control border-white p-3" placeholder="Your Email">
+                                <button class="btn btn-dark">Sign Up</button>
+                            </div>
+                        </form> -->
+                    </div>
+                </div>
+                <div class="col-lg-8 col-md-6">
+                    <div class="row gx-5">
+                        <div class="col-lg-4 col-md-12 pt-5 mb-5">
+                            <div class="section-title section-title-sm position-relative pb-3 mb-4">
+                                <h3 class="text-light mb-0">Get In Touch</h3>
+                            </div>
+                            <div class="d-flex mb-2">
+                                <i class="bi bi-geo-alt text-primary me-2"></i>
+                                <p class="mb-0">12 A-04, Floor 12 A, Damac Executive Bay, Tower B, Al A'amal Street - Business Bay, Dubai UAE</p>
+                            </div>
+                            <div class="d-flex mb-2">
+                                <i class="bi bi-envelope-open text-primary me-2"></i>
+                                <p class="mb-0">P.O Box 191255</p>
+                            </div>
+                            <div class="d-flex mb-2">
+                                <i class="bi bi-telephone text-primary me-2"></i>
+                                <a class="phone-link text-white" href="tel:+97145689749">+971 4 5689749</a>
+                            </div>
+                            <div class="d-flex mt-4">
+                                <a class="btn btn-primary btn-square me-2" href="#"><i class="fab fa-twitter fw-normal"></i></a>
+                                <a class="btn btn-primary btn-square me-2" href="https://www.facebook.com/goyzertech"><i class="fab fa-facebook-f fw-normal"></i></a>
+                                <a class="btn btn-primary btn-square me-2" href="https://www.linkedin.com/company/goyzer-technology-solutions/"><i class="fab fa-linkedin-in fw-normal"></i></a>
+                                <a class="btn btn-primary btn-square" href="https://www.instagram.com/goyzeruae/"><i class="fab fa-instagram fw-normal"></i></a>
+                            </div>
+                        </div>
+                        <div class="col-lg-4 col-md-12 pt-0 pt-lg-5 mb-5">
+                            <div class="section-title section-title-sm position-relative pb-3 mb-4">
+                                <h3 class="text-light mb-0">Quick Links</h3>
+                            </div>
+                            <div class="link-animated d-flex flex-column justify-content-start">
+                                <a class="text-light mb-2" href="about.html"><i class="bi bi-arrow-right text-primary me-2"></i>About Us</a>
+                                <a class="text-light mb-2" href="contact.html"><i class="bi bi-arrow-right text-primary me-2"></i>Contact Us</a>
+                                <a class="text-light mb-2" href="developers.html"><i class="bi bi-arrow-right text-primary me-2"></i>Developers</a>
+                                <a class="text-light mb-2" href="brokers.html"><i class="bi bi-arrow-right text-primary me-2"></i>Brokers</a>
+                                <a class="text-light mb-2" href="property-managers.html"><i class="bi bi-arrow-right text-primary me-2"></i>Property Managers</a>
+                                <a class="text-light mb-2" href="privacy.html"><i class="bi bi-arrow-right text-primary me-2"></i>Privacy Policy</a>
+                                <a class="text-light mb-2" href="terms.html"><i class="bi bi-arrow-right text-primary me-2"></i>Terms of Services</a>
+                            </div>
+                        </div>
+                        <div class="col-lg-4 col-md-12 pt-0 pt-lg-5 mb-5">
+                            <div class="section-title section-title-sm position-relative pb-3 mb-4">
+                                <h3 class="text-light mb-0">Popular Blogs</h3>
+                            </div>
+                            <div class="link-animated d-flex flex-column justify-content-start">
+                                <a class="text-light mb-2 d-flex" href="https://blog.goyzer.com/features/augmented-reality-in-real-estate-its-benefits/"><i class="bi bi-arrow-right text-primary me-2"></i>Augmented Reality in Real Estate</a>
+                                <a class="text-light mb-2 d-flex" href="https://blog.goyzer.com/marketing/how-to-maximize-your-property-rental-income/"><i class="bi bi-arrow-right text-primary me-2"></i>How to Maximize Property Rental Income</a>
+                                <a class="text-light mb-2 d-flex" href="https://blog.goyzer.com/marketing/reasons-why-tenants-leave-their-rental-property/"><i class="bi bi-arrow-right text-primary me-2"></i>Why Tenants Leave their Rental Property</a>
+                                <!-- <a class="text-light mb-2" href="#"><i class="bi bi-arrow-right text-primary me-2"></i>Meet The Team</a>
+                                <a class="text-light mb-2" href="#"><i class="bi bi-arrow-right text-primary me-2"></i>Latest Blog</a>
+                                <a class="text-light" href="#"><i class="bi bi-arrow-right text-primary me-2"></i>Contact Us</a> -->
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="container-fluid text-white" style="background: #061429;">
+        <div class="container text-center">
+            <div class="row justify-content-end">
+                <div class="col-lg-8 col-md-6">
+                    <div class="d-flex align-items-center justify-content-center" style="height: 75px;">
+                        <p class="mb-0"><a class="text-white border-bottom" href="#">Copyright © 2025. GoYzer. All Rights Reserved.</a></p>
+                        
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- Footer End -->
+
+
+    <!-- Back to Top -->
+    <a href="#" class="btn btn-lg btn-primary btn-lg-square rounded back-to-top"><i class="bi bi-arrow-up"></i></a>
+
+
+    <!-- JavaScript Libraries -->
+    <script src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="lib/wow/wow.min.js"></script>
+    <script src="lib/easing/easing.min.js"></script>
+    <script src="lib/waypoints/waypoints.min.js"></script>
+    <script src="lib/counterup/counterup.min.js"></script>
+    <script src="lib/owlcarousel/owl.carousel.min.js"></script>
+
+    <!-- Template Javascript -->
+    <script src="js/main.js"></script>
+</body>
+
+</html>
