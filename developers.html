@@ -248,7 +248,7 @@
     <!-- Top Features Developers Start -->
     <div class="container-fluid wow fadeInUp" data-wow-delay="0.1s">
       <div class="container py-5">
-        <div class="row g-5">
+        <div class="row g-5 row-ad-1">
           <div class="col-lg-7">
             <div class="section-title position-relative pb-3 mb-5">
               <h5 class="fw-bold text-primary text-uppercase">
@@ -431,7 +431,7 @@
       "
     >
       <div class="container py-5">
-        <div class="row g-5">
+        <div class="row g-5 row-ad-1">
           <div class="col-lg-7">
             <div class="section-title position-relative pb-3 mb-3">
               <h5 class="fw-bold text-primary text-uppercase">
@@ -1055,5 +1055,12 @@
 
     <!-- Template Javascript -->
     <script src="js/main.js"></script>
+    <script>
+      $(document).ready(function() {
+        $('html, body').animate({
+            scrollTop: 900
+        }, 1000); 
+      });
+  </script>
   </body>
 </html>

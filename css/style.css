@@ -1186,3 +1186,15 @@ h6,
     }
     
   }
+  @media only screen and (max-width: 540px) {
+    .row-ad-1{
+      flex-direction: column-reverse;
+    }
+    .row-ad-1 .h-100{
+      height: auto !important;
+    }
+    .row-ad-1 .col-lg-5,.row-ad-1 .col-lg-7{
+      margin-top: 0px !important;
+    }
+  }
+  
