@@ -1130,6 +1130,11 @@ h6,
         margin-bottom: -75px;
     }
 }
+@media only screen and (max-width: 1024px) {
+  .service-item {
+     height: auto;
+  }
+}
 
 @media only screen and (max-width: 992px) {
     img.logo-white{
