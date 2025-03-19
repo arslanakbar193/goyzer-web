@@ -1219,5 +1219,8 @@ h6,
     .alain-logo{
       top:-40px !important;
     }
+    .row-ad-1 .col-lg-5,.row-ad-1 .col-lg-7{
+      margin-top: 15px !important;
+    }
   }
   
