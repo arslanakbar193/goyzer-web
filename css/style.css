@@ -57,7 +57,9 @@
     opacity: 1;
 }
 
-
+.mh-500{
+  min-height: 500px;
+}
 /*** Heading ***/
 h1,
 h2,
@@ -1184,9 +1186,6 @@ h6,
     .integration-mobile-logo {
         display: grid !important;
     }
-    
-  }
-  @media only screen and (max-width: 540px) {
     .row-ad-1{
       flex-direction: column-reverse;
     }
@@ -1195,6 +1194,25 @@ h6,
     }
     .row-ad-1 .col-lg-5,.row-ad-1 .col-lg-7{
       margin-top: 0px !important;
+    }
+    .blog-item .blog-img  {
+      text-align: center;
+    }
+    
+  }
+  @media only screen and (max-width: 540px) {
+    .container-fluid.integration-fluid .col-lg-3.col-md-3 {
+      margin-top: 20px;
+  } 
+    .mh-500{
+      min-height: 400px;
+    }
+    .blog-item .blog-img  {
+      text-align: center;
+    }
+    .savills-logo,
+    .alain-logo{
+      top:-40px !important;
     }
   }
   
