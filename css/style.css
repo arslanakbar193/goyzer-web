@@ -1203,6 +1203,9 @@ h6,
     .blog-item .blog-img  {
       text-align: center;
     }
+    .counterup{
+      top:21px !important; 
+    }
     
   }
   @media only screen and (max-width: 540px) {
@@ -1222,5 +1225,9 @@ h6,
     .row-ad-1 .col-lg-5,.row-ad-1 .col-lg-7{
       margin-top: 15px !important;
     }
+    .counterup{
+      top:19px !important; 
+    }
+
   }
   
